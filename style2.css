@@ -1,0 +1,238 @@
+.parent {
+    background-color: rgb(87, 52, 1);
+    /* height: 100px; */
+}
+
+.navbar {
+    /* display: inline-block; */
+    display: flex;
+    /* position: fixed; */
+    width: 100%;
+    line-height: 80px;
+    /* background: transparent; */
+}
+
+.mideam {
+    margin-left: 400px;
+    color: white;
+}
+
+.mideam .nav-item .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar .navbar-brand {
+    display: inline-block;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.div {
+    max-width: 60%;
+    flex: 60%;
+    width: 90%;
+    height: 55%;
+    margin-top: 10%;
+}
+
+.div h1 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 550px;
+    font-family: revert;
+    margin-top: -35px;
+    color: #4d4a4a;
+}
+
+.div p {
+    font-family: sans-serif;
+    color: #777676;
+    font-size: 19px;
+    margin-left: 480px;
+    width: 75%;
+}
+
+.image {
+    margin-left: 50px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.div1 {
+    margin-left: 75px;
+    font-family: monospace;
+    margin-top: 20px;
+    color: rgba(75, 85, 99, var(--tw-text-opacity));
+}
+
+.DIV h1 {
+    font-size: 35px;
+    font-weight: 900;
+    margin-left: 65px;
+    font-family: revert;
+    margin-top: 6px;
+    color: #4d4a4a;
+}
+
+.DIV p {
+    color: #797171;
+    font-size: 19px;
+    margin-left: 65px;
+    margin-top: -15px;
+    width: 34%;
+}
+
+.accordion {
+    width: 14%;
+    border: none;
+    padding: 16px 16px;
+    background-color: #bbe1fa;
+    color: #1b262c;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 72px;
+    cursor: pointer;
+}
+
+.accordion:hover {
+    background-color: #3b8bc0;
+}
+
+.desc {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0px 22px;
+    line-height: 1.6;
+    word-spacing: 4px;
+    font-size: 17px;
+    transition: .3s;
+}
+
+
+/* .img1 {
+    margin-left: 690px;
+    margin-top: -140px;
+
+} */
+
+.img1-post {
+    width: 400px;
+    height: 360px;
+    margin-top: -150px;
+    margin-left: 890px;
+}
+
+.post1-title {
+    font-size: 1.2rem;
+    margin-left: 910px;
+    width: 260px;
+    display: block;
+    height: 450px;
+    margin-top: -135px;
+}
+
+.footer {
+    background-color: #162231;
+    padding: 55px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: -380px;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.footer .footer-parent {
+    display: flex;
+    flex-wrap: no-wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .footer-parent .footer-child {
+    max-width: 22%;
+    flex: 22%;
+    /* background-color: goldenrod; */
+}
+
+.footer .footer-parent .footer-child h4 {
+    margin: 31px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-left: 50px;
+}
+
+.footer .footer-parent .footer-child p {
+    line-height: 25px;
+    color: #58606b;
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+.footer .footer-parent .footer-child ul {
+    list-style: none;
+}
+
+.footer .footer-parent .footer-child ul li {
+    padding: 9px;
+    color: #58606b;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer .footer-parent .footer-child ul li a {
+    /* padding: 9px; */
+    color: #58606b;
+    text-decoration: none;
+}
+
+.footer .footer-parent .footer-child .contact-flex {
+    display: flex;
+}
+
+.footer .footer-parent .footer-child i {
+    margin-right: 6px;
+}
+
+.footer .footer-container2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 0px;
+    margin-top: 40px;
+}
+
+.footer .footer-bottom {
+    background-color: #151515;
+}
+
+.footer .footer-bottom a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .footer-bottom a i {
+    padding: 8px 11px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #fbffff;
+    border-radius: 50%;
+    margin-right: 1px;
+    color: #333;
+    transition: background-color .6s;
+}
